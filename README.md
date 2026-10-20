@@ -15,9 +15,7 @@ One-pager statique (un seul `index.html`, polices Parkinsans et Shrikhand intég
 
 ## Avant la mise en ligne
 
-Dans `index.html`, compléter les mentions légales (recherche `[à compléter]`).
-- Adresse postale de l'entreprise individuelle
-- Numéro de TVA intracommunautaire
+Les mentions légales sont complètes (adresse et TVA identiques à CxO).
 
 Si le domaine ou l'adresse e-mail diffèrent de `secondementvotre.fr` et `bonjour@secondementvotre.fr`, remplacer partout dans `index.html`, `CNAME`, `robots.txt` et `sitemap.xml`.
 
