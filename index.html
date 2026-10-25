@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Secondement Vôtre · Un entrepreneur aux côtés des repreneurs</title>
-<meta name="description" content="Vous reprenez une PME en Savoie, Haute-Savoie, Pays de Gex ou à Genève. Un entrepreneur partage avec vous la charge dès les premiers mois, sur le terrain et au contact de vos équipes.">
+<title>Secondement Vôtre · Un entrepreneur aux côtés des dirigeants</title>
+<meta name="description" content="Second exécutif à temps partagé pour dirigeants, entrepreneurs et repreneurs, en start-up comme en PME. Savoie, Haute-Savoie, Pays de Gex et Genève. Vous dirigez, je vous seconde.">
 <meta name="theme-color" content="#1D2B53">
 <link rel="canonical" href="https://secondementvotre.fr/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -13,8 +13,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_FR">
 <meta property="og:site_name" content="Secondement Vôtre">
-<meta property="og:title" content="Secondement Vôtre · Votre reprise, à deux.">
-<meta property="og:description" content="Un entrepreneur aux côtés des repreneurs de PME. Savoie, Haute-Savoie, Pays de Gex et canton de Genève.">
+<meta property="og:title" content="Secondement Vôtre · Vous dirigez, je vous seconde.">
+<meta property="og:description" content="Un entrepreneur aux côtés des dirigeants. Second exécutif à temps partagé, start-up et PME. Savoie, Haute-Savoie, Pays de Gex et canton de Genève.">
 <meta property="og:url" content="https://secondementvotre.fr/">
 <meta property="og:image" content="https://secondementvotre.fr/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -23,7 +23,7 @@
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "Secondement Vôtre",
-  "slogan": "Un entrepreneur aux côtés des repreneurs",
+  "slogan": "Un entrepreneur aux côtés des dirigeants",
   "url": "https://secondementvotre.fr/",
   "email": "bonjour@secondementvotre.fr",
   "founder": {"@type": "Person", "name": "Mickaël Bovagnet"},
@@ -145,6 +145,8 @@ h2{font-size:clamp(32px,4.6vw,52px);max-width:22ch}
 .scope{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .scope-item{border:2px solid var(--sable);border-radius:var(--radius);padding:30px 28px;background:var(--creme);transition:border-color .2s,transform .2s}
 .scope-item:hover{border-color:var(--elan);transform:translateY(-3px)}
+.scope-item.more{border-style:dashed;background:transparent}
+.scope-item.more .dots{font-weight:700;font-size:26px;line-height:1;color:var(--elan-fonce);letter-spacing:.05em}
 .scope-item h3{font-size:21px;margin-bottom:10px}
 .scope-item p{color:var(--ardoise);font-size:16.5px;margin:0}
 .scope-item .pill{display:inline-block;font-size:13px;font-weight:600;color:var(--elan-fonce);background:#FBE3D6;border-radius:999px;padding:3px 12px;margin-bottom:14px}
@@ -367,7 +369,7 @@ sup{font-size:.6em;line-height:0}
     <nav class="menu" aria-label="Navigation principale">
       <a class="link" href="#constat">Pour qui</a>
       <a class="link" href="#approche">L'approche</a>
-      <a class="link" href="#parcours">Le parcours</a>
+      <a class="link" href="#perimetre">Les possibilités</a>
       <a class="link" href="#qui">Qui vous seconde</a>
       <a class="link" href="#modalites">Modalités</a>
       <a class="btn btn-primary btn-small" href="#contact">Échanger</a>
@@ -380,12 +382,12 @@ sup{font-size:.6em;line-height:0}
 <section class="hero">
   <div class="wrap">
     <div>
-      <span class="eyebrow">Un entrepreneur aux côtés des repreneurs</span>
-      <h1>Votre reprise, <span class="accent">à deux.</span></h1>
-      <p class="lead">Vous reprenez une PME ou vous venez de le faire. Je partage avec vous la charge dès les premiers mois, sur le terrain et au contact de vos équipes. <strong>Vous restez le capitaine. Je vous seconde.</strong></p>
+      <span class="eyebrow">Un entrepreneur aux côtés des dirigeants</span>
+      <h1>Vous dirigez, je vous <span class="accent">seconde.</span></h1>
+      <p class="lead">Vous dirigez une start-up ou une PME, vous la créez, vous la développez ou vous la reprenez. Je prends ma part de la charge au niveau de la direction, sur le terrain et au contact de vos équipes. <strong>Un second exécutif à temps partagé. Vous décidez.</strong></p>
       <div class="cta-row">
-        <a class="btn btn-primary" href="#contact">Parlons de votre reprise</a>
-        <a class="btn btn-ghost" href="#parcours">Voir le parcours</a>
+        <a class="btn btn-primary" href="#contact">Parlons de votre entreprise</a>
+        <a class="btn btn-ghost" href="#perimetre">Voir les possibilités</a>
       </div>
       <p class="zone"><svg aria-hidden="true"><use href="#i-pin"/></svg>Savoie, Haute-Savoie, Pays de Gex et canton de Genève</p>
     </div>
@@ -401,47 +403,47 @@ sup{font-size:.6em;line-height:0}
   <div class="wrap">
     <div class="section-head reveal">
       <span class="eyebrow">Pour qui</span>
-      <h2>Vous avez choisi cette entreprise. Vous n'avez pas à la porter seul.</h2>
+      <h2>On peut se sentir seul à diriger. Faites-vous seconder.</h2>
     </div>
     <div class="cards">
       <article class="card reveal">
         <div class="illu">
-          <span class="when">Avant la signature</span>
+          <span class="when">Start-up</span>
           <svg viewBox="0 0 240 150" aria-hidden="true">
             <use href="#ib" x="58" y="18" width="32" height="122" style="color:var(--nuit)"/>
             <g transform="translate(112 30) rotate(6)"><rect width="74" height="96" rx="10" fill="#F5E6D0" stroke="#1D2B53" stroke-width="3"/><path d="M16 26h42M16 42h42M16 58h28" stroke="#1D2B53" stroke-width="3" stroke-linecap="round" opacity=".45"/></g>
             <circle cx="184" cy="106" r="15" fill="#FFF4E6" stroke="#E85D2A" stroke-width="5"/><path d="M195 117l13 13" stroke="#E85D2A" stroke-width="6" stroke-linecap="round"/>
           </svg>
         </div>
-        <h3>Vous préparez votre reprise</h3>
-        <p>Financement, formation, dossier en cours.</p>
+        <h3>Vous fondez une start-up</h3>
+        <p>Structurer, financer et vendre, tout en même temps.</p>
       </article>
       <article class="card reveal">
         <div class="illu">
-          <span class="when">Après la signature</span>
+          <span class="when">PME</span>
           <svg viewBox="0 0 240 150" aria-hidden="true">
             <use href="#ib" x="62" y="18" width="32" height="122" style="color:var(--nuit)"/>
             <g transform="translate(116 104) rotate(-28)" fill="none" stroke="#1D2B53" stroke-width="6" stroke-linecap="round"><circle cx="0" cy="0" r="15"/><path d="M15 0h52M52 0v12M64 0v10"/></g>
             <g fill="#E85D2A"><rect x="176" y="14" width="8" height="26" rx="4"/><circle cx="180" cy="49" r="4.5"/><g transform="rotate(14 210 60)"><rect x="206" y="44" width="7" height="21" rx="3.5"/><circle cx="209.5" cy="72" r="4"/></g><g transform="rotate(-12 150 30)"><rect x="146" y="16" width="6" height="17" rx="3"/><circle cx="149" cy="40" r="3.5"/></g></g>
           </svg>
         </div>
-        <h3>Vous venez de reprendre</h3>
-        <p>Les imprévus arrivent plus vite que prévu.</p>
+        <h3>Vous dirigez une PME</h3>
+        <p>La croissance plafonne ou un projet nouveau attend.</p>
       </article>
       <article class="card reveal">
         <div class="illu">
-          <span class="when">À tout moment</span>
+          <span class="when">Reprise</span>
           <svg viewBox="0 0 240 150" aria-hidden="true">
             <use href="#ib" x="96" y="18" width="32" height="122" style="color:var(--nuit)"/>
             <use href="#ig" x="134" y="48" width="24" height="94" transform="rotate(8 146 140)"/>
           </svg>
         </div>
-        <h3>Vous êtes seul aux commandes</h3>
-        <p>Toutes les décisions vous reviennent.</p>
+        <h3>Vous reprenez une entreprise</h3>
+        <p>Avant la signature et pendant les premiers mois.</p>
       </article>
     </div>
     <ul class="target reveal">
-      <li><span class="tico"><svg aria-hidden="true"><use href="#i-users"/></svg></span><span><b>À partir de 10 salariés</b></span></li>
+      <li><span class="tico"><svg aria-hidden="true"><use href="#i-users"/></svg></span><span><b>Start-up et PME</b><small>Fondateurs, dirigeants et repreneurs</small></span></li>
       <li><span class="tico"><svg aria-hidden="true"><use href="#i-grid"/></svg></span><span><b>Tous secteurs</b><small>Le métier reste à vos équipes</small></span></li>
     </ul>
   </div>
@@ -452,6 +454,7 @@ sup{font-size:.6em;line-height:0}
     <div class="section-head center reveal">
       <span class="eyebrow">Mon approche</span>
       <h2>Avec vous ou pour vous, jamais à votre place.</h2>
+      <p class="lead" style="margin:18px auto 0;color:inherit;opacity:.85">Un ADN double. La méthode et l'énergie des start-up au service des PME, la rigueur et l'ancrage des PME au service des start-up.</p>
     </div>
     <div class="compare">
       <div class="panel reveal">
@@ -483,7 +486,7 @@ sup{font-size:.6em;line-height:0}
       </div>
     </div>
     <ul class="chips reveal">
-      <li><svg aria-hidden="true"><use href="#i-compass"/></svg>Un copilote entrepreneur</li>
+      <li><svg aria-hidden="true"><use href="#i-compass"/></svg>Un entrepreneur à bord</li>
       <li><svg aria-hidden="true"><use href="#i-users"/></svg>Un partenaire de terrain</li>
       <li><svg aria-hidden="true"><use href="#i-shield"/></svg>Un appui de confiance</li>
     </ul>
@@ -493,38 +496,42 @@ sup{font-size:.6em;line-height:0}
 <section id="perimetre">
   <div class="wrap">
     <div class="section-head reveal">
-      <span class="eyebrow">Ce que je peux prendre en charge</span>
+      <span class="eyebrow">Les possibilités</span>
       <h2>Un renfort là où vous en avez besoin.</h2>
     </div>
     <div class="scope">
       <article class="scope-item reveal">
         <span class="sico"><svg aria-hidden="true"><use href="#i-doc"/></svg></span>
-        <div><h3>Préparation de la reprise</h3><p>Dossier, lecture détaillée, audits</p></div>
+        <div><h3>Croissance et marchés</h3><p>Nouveau relais, nouvelle offre, mise sur le marché</p></div>
       </article>
       <article class="scope-item reveal">
         <span class="sico"><svg aria-hidden="true"><use href="#i-org"/></svg></span>
-        <div><h3>Organisation interne</h3><p>Rôles, process, tableaux de bord</p></div>
+        <div><h3>Financement</h3><p>Aides, Bpifrance, banques, levée de fonds</p></div>
       </article>
       <article class="scope-item reveal">
         <span class="sico"><svg aria-hidden="true"><use href="#i-trend"/></svg></span>
-        <div><h3>Développement</h3><p>Commercial, marketing, stratégie</p></div>
+        <div><h3>Opérations et pilotage</h3><p>Organisation, process, tableaux de bord</p></div>
       </article>
       <article class="scope-item reveal">
         <span class="sico"><svg aria-hidden="true"><use href="#i-spark"/></svg></span>
-        <div><h3>Numérique et IA</h3><p>Du temps gagné au quotidien</p></div>
+        <div><h3>Reprise d'entreprise</h3><p>Dossier, audits, premiers mois après la signature</p></div>
       </article>
       <article class="scope-item reveal">
         <span class="sico"><svg aria-hidden="true"><use href="#i-layers"/></svg></span>
-        <div><h3>Structuration</h3><p>Tâches et savoirs mis par écrit</p></div>
+        <div><h3>Numérique et IA</h3><p>Du temps gagné au quotidien pour vos équipes</p></div>
       </article>
       <article class="scope-item reveal">
         <span class="sico"><svg aria-hidden="true"><use href="#i-chat"/></svg></span>
-        <div><h3>Soutien au dirigeant</h3><p>Décisions préparées, équipes relayées</p></div>
+        <div><h3>Transmission</h3><p>Tâches structurées, savoirs transmis à vos équipes</p></div>
+      </article>
+      <article class="scope-item more reveal">
+        <span class="sico"><span class="dots" aria-hidden="true">…</span></span>
+        <div><h3>Et le reste</h3><p>La liste reste ouverte. Parlons de votre situation.</p></div>
       </article>
     </div>
     <div class="note reveal">
       <svg class="sym" viewBox="-2 -4 62 126" aria-hidden="true"><g class="second"><circle cx="34" cy="44" r="11" fill="#E85D2A"/><rect x="20" y="60" width="22" height="60" rx="11" fill="#E85D2A"/></g><circle cx="16" cy="13" r="11" fill="#1D2B53" stroke="#F5E6D0" stroke-width="6" paint-order="stroke"/><rect x="6" y="30" width="20" height="90" rx="10" fill="#1D2B53" stroke="#F5E6D0" stroke-width="6" paint-order="stroke"/></svg>
-      <p><strong>Vous décidez. Le métier reste à vos équipes.</strong></p>
+      <p><strong>Vous décidez. Je conçois, je structure, j'exécute et je transmets. Le métier reste à vos équipes.</strong></p>
     </div>
   </div>
 </section>
@@ -536,28 +543,28 @@ sup{font-size:.6em;line-height:0}
       <h2>Du premier échange à la passation.</h2>
     </div>
     <ol class="steps">
-      <li class="step opt reveal">
-        <div class="dot">0</div>
-        <div><span class="opt-tag">En option</span><h3>Avant la reprise</h3><p>Projet, dossier, signature</p></div>
-      </li>
       <li class="step reveal">
         <div class="dot">1</div>
-        <div><h3>Découverte</h3><p>L'entreprise, ses équipes, vos enjeux</p></div>
+        <div><h3>Échange</h3><p>Votre situation, vos priorités, l'enveloppe de jours</p></div>
       </li>
       <li class="step reveal">
         <div class="dot">2</div>
-        <div><h3>Planification</h3><p>Qui fait quoi, décidé ensemble</p></div>
+        <div><h3>Découverte</h3><p>L'entreprise, ses équipes, vos enjeux</p></div>
       </li>
       <li class="step reveal">
         <div class="dot">3</div>
-        <div><h3>Terrain</h3><p>Les opérations, avec vous</p></div>
+        <div><h3>Répartition</h3><p>Qui fait quoi, vous décidez</p></div>
       </li>
       <li class="step reveal">
         <div class="dot">4</div>
+        <div><h3>Terrain</h3><p>Les opérations, avec vous et vos équipes</p></div>
+      </li>
+      <li class="step reveal">
+        <div class="dot">5</div>
         <div><h3>Structuration</h3><p>Tâches et savoirs organisés</p></div>
       </li>
       <li class="step last reveal">
-        <div class="dot">5</div>
+        <div class="dot">6</div>
         <div><h3>Passation</h3><p>Vous et vos équipes aux commandes</p></div>
       </li>
     </ol>
@@ -571,8 +578,8 @@ sup{font-size:.6em;line-height:0}
       <div class="who-text">
         <span class="eyebrow">Qui vous seconde</span>
         <h2>Mickaël Bovagnet, entrepreneur.</h2>
-        <p>J'ai créé Alsima à 25 ans et je l'ai dirigée dix ans, jusqu'à la transmission de l'activité. J'en garde la résilience, le goût du terrain et le calme face aux imprévus.</p>
-        <p class="network">Parrain au Réseau Initiative Annecy · Ancien président d'un comité de financement de l'innovation</p>
+        <p>J'ai créé Alsima à 25 ans et je l'ai dirigée dix ans, jusqu'à la transmission de l'activité. J'en garde la résilience, le goût du terrain et le calme face aux imprévus. Depuis, je seconde des fondateurs de start-up et des dirigeants de PME sur la direction, le go to market, les opérations et la finance.</p>
+        <p class="network">Membre du bureau de French Tech Annecy · Parrain au Réseau Initiative Annecy · Ancien président d'un comité de financement de l'innovation</p>
       </div>
     </div>
     <div class="stats">
@@ -601,16 +608,16 @@ sup{font-size:.6em;line-height:0}
 <section id="contact" class="dark contact">
   <div class="wrap">
     <svg class="sym" viewBox="-2 -4 62 126" aria-hidden="true"><g class="second"><circle cx="34" cy="44" r="11" fill="#E85D2A"/><rect x="20" y="60" width="22" height="60" rx="11" fill="#E85D2A"/></g><circle cx="16" cy="13" r="11" fill="#FFF4E6" stroke="#1D2B53" stroke-width="6" paint-order="stroke"/><rect x="6" y="30" width="20" height="90" rx="10" fill="#FFF4E6" stroke="#1D2B53" stroke-width="6" paint-order="stroke"/></svg>
-    <h2>Parlons de votre reprise, <span class="accent">à deux.</span></h2>
+    <h2>Vous dirigez, je vous <span class="accent">seconde.</span></h2>
     <p class="lead">30 minutes offertes, sans engagement.</p>
     <ul class="agenda">
       <li><span>1</span>Votre situation</li>
-      <li><span>2</span>Vos premières urgences</li>
+      <li><span>2</span>Vos priorités du moment</li>
       <li><span>3</span>Comment je peux vous seconder</li>
     </ul>
     <p class="promise">Vous repartez avec un regard neuf sur vos priorités.</p>
     <a class="btn btn-elan" href="https://calendar.app.google/2G1ZtAeVxFA2QaudA" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-cal"/></svg>Prenez rendez-vous</a>
-    <span class="mail">ou par e-mail à <a href="mailto:bonjour@secondementvotre.fr?subject=Ma%20reprise">bonjour@secondementvotre.fr</a></span>
+    <span class="mail">ou par e-mail à <a href="mailto:bonjour@secondementvotre.fr?subject=Mon%20entreprise">bonjour@secondementvotre.fr</a></span>
   </div>
 </section>
 
@@ -621,7 +628,7 @@ sup{font-size:.6em;line-height:0}
     <div class="foot-top">
       <div>
         <span class="wordmark">secondement <span class="accent">vôtre</span></span>
-        <div class="base">Un entrepreneur aux côtés des repreneurs</div>
+        <div class="base">Un entrepreneur aux côtés des dirigeants</div>
       </div>
       <div>© <span id="annee">2026</span> Secondement Vôtre</div>
     </div>
